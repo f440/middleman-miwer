@@ -1,0 +1,3 @@
+[submodule "source/shower"]
+	path = source/shower
+	url = git@github.com:shower/shower.git
