@@ -1,3 +1,34 @@
+---
+title: Shower Presentation Engine
+style: |-
+  #Cover h2 {
+    margin:30px 0 0;
+    color:#FFF;
+    text-align:center;
+    font-size:70px;
+  }
+  #Cover p {
+    margin:10px 0 0;
+    text-align:center;
+    color:#FFF;
+    font-style:italic;
+    font-size:20px;
+  }
+  #Cover p a {
+    color:#FFF;
+  }
+  #Picture h2 {
+    color:#FFF;
+  }
+  #SeeMore h2 {
+    font-size:100px
+  }
+  #SeeMore img {
+    width:0.72em;
+    height:0.72em;
+  }
+---
+
 # Shower Presentation Engine
 
 Yours Truly, Famous Inc.
@@ -6,7 +37,7 @@ Yours Truly, Famous Inc.
 ## Shower Presentation Engine
 {:#Cover .slide .cover}
 
-Brought you by <a href="http://pepelsbey.net">Vadim Makeev</a>
+Brought to you by <a href="http://pepelsbey.net">Vadim Makeev</a>
 
 <img src="pictures/cover.jpg" alt="" />
 <!-- photo by John Carey, fiftyfootshadows.net -->
@@ -28,7 +59,7 @@ Shower ['ʃəuə] noun. A person or thing that shows.
 ## Plain Text on Your Slides
 {:.slide}
 
-Lorem ipsum dolor sit amet, consectetur <a href="#4">adipisicing</a> elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, *quis nostrud* exercitation ullamco laboris **nisi ut aliquip** ex ea commodo consequat. Duis aute irure _dolor_ in reprehenderit in voluptate velit esse cillum *dolore* eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in `<culpa>` qui officia deserunt mollit anim id est laborum.
+Lorem ipsum dolor sit amet, consectetur <a href="#4">adipisicing</a> elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, *quis nostrud* exercitation ullamco laboris **nisi ut aliquip** ex ea commodo consequat. Duis aute irure _dolor_ in reprehenderit in voluptate velit esse cillum **dolore** eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in `<culpa>` qui officia deserunt mollit anim id est laborum.
 
 
 ## All Kind of Lists
@@ -48,7 +79,7 @@ Lorem ipsum dolor sit amet, consectetur <a href="#4">adipisicing</a> elit, sed d
 
 > Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia.
 
-Marcus Tullius Cicero
+<figcaption>Marcus Tullius Cicero</figcaption>
 
 
 ## Code Samples
