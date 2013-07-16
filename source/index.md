@@ -27,6 +27,8 @@ style: |-
     width:0.72em;
     height:0.72em;
   }
+copyright: Copyright © 2013 Yours Truly, Famous Inc.
+github_url: "https://github.com/shower/shower"
 ---
 
 # Shower Presentation Engine
