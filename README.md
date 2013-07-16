@@ -1,6 +1,6 @@
 # Miwer
 
-[shower](https://github.com/shower/shower) template for [middleman][https://github.com/middleman/middleman]
+[shower](https://github.com/shower/shower) template for [middleman](https://github.com/middleman/middleman)
 
 ## Installation
 
