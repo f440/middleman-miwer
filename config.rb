@@ -70,3 +70,13 @@ configure :build do
 end
 
 Slim::Engine.set_default_options pretty: true, sort_attrs: false
+
+helpers do
+  def showerize(html)
+    html.
+      sub(/\A/, "<header class=\"caption\">").
+      gsub(/<h2([^\/]*)?>/, "</div></section><section\\1><div><h2>").
+      sub(/\Z/, "</div></section>").
+      sub("</div></section>", "</header>")
+  end
+end
